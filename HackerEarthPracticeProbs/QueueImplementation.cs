@@ -107,7 +107,7 @@ namespace HackerEarthPracticeProbs
 
         private bool IsFull()
         {
-            return ((this._size - this._queueSize) - 1) == -1;
+            return (this._size - this._queueSize) == 0;
         }
 
     }

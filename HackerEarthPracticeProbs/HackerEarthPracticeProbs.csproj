@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>HackerEarthPracticeProbs.CustomQueueImpl</StartupObject>
+    <StartupObject>HackerEarthPracticeProbs.CustomLinkedListImpl</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BasicImplementation.cs" />
+    <Compile Include="LinkedListImplementation.cs" />
     <Compile Include="MultiDimensionalArray.cs" />
     <Compile Include="OneDimensionalArray.cs" />
     <Compile Include="Program.cs" />
